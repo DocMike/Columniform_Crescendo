@@ -1,7 +1,7 @@
-function StructPath = AnalyzeTransfer(FolderName)
+function StructPath = AnalyzeTransfer(FolderName, type)
 
 Directory = BuildDirectory(FolderName);
-StructPath = BuildStruct(Directory);
+StructPath = BuildTransferStruct(Directory);
 getID(StructPath)
 Discretize(StructPath)
 GetParameters(StructPath)
