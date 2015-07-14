@@ -10,9 +10,9 @@ function Directory = BuildDirectory(FolderName, type)
 %Input computer specfic pathway to the correct file
 if type==1
 if ispc
-    DirectoryPath= ['C:\Users\Mike\Documents\GitHub\Ocular_Ascension\' FolderName '\'];
+    DirectoryPath= ['C:\Users\Mike\Documents\GitHub\Columniform_Crescendo\' FolderName '\'];
 else
-    DirectoryPath = ['/Users/Imperssonator/Documents/MATLAB/Ocular_Ascension/' FolderName '/'];
+    DirectoryPath = ['/Users/Imperssonator/Documents/MATLAB/Columniform_Crescendo/' FolderName '/'];
 end
 
 elseif type==2
