@@ -4,5 +4,5 @@ Directory = BuildDirectory(FolderName, type);
 StructPath = BuildSurfaceStruct(Directory);
 GetLinMobility(StructPath)
 GetSatMobility(StructPath)
-
+CurveFits(StructPath)
 end
