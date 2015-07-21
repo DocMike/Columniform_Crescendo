@@ -20,6 +20,13 @@ for i=1:NumFiles
     Surface(i).FilePath=FilePath;
     Surface(i).Data=Data;
     Surface(i).VD=VD;
+    
+     if isequal(VG, [0:-1:-80])==1
+    
+     else
+         VG=[0:-1:-80];
+     end
+    
     Surface(i).VG=VG;
     Surface(i).Name=SpecName;
     Surface(i).Width=2000;

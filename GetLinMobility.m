@@ -54,9 +54,9 @@ end
 end
 
     
-Surface(k).LinVT=VT;
-Surface(k).LinMobility=mobility;
-Surface(k).LinSSE=SSE;
+Surface(k).FitLinVT=VT;
+Surface(k).FitLinMobility=mobility;
+Surface(k).FitLinSSE=SSE;
  
  end
 save(StructPath, 'Surface');

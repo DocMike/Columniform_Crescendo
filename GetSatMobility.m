@@ -56,9 +56,9 @@ end
     
 end
     
-Surface(k).SatVT=VT;
-Surface(k).SatMobility=mobility;
-Surface(k).SatSSE=SSE;
+Surface(k).FitSatVT=VT;
+Surface(k).FitSatMobility=mobility;
+Surface(k).FitSatSSE=SSE;
  
  end
 save(StructPath, 'Surface');
